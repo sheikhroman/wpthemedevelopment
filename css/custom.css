@@ -1,0 +1,9 @@
+/* common css */
+img{
+    max-width: 100%;
+}
+
+/* Header start */
+#header_area{
+    padding: 15px 0;
+}

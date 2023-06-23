@@ -21,8 +21,8 @@
             <div class="col-md-3">
                 <a href=""><img src=" <?php echo get_theme_mod('roman_logo') ?> "alt=""></a>
             </div>
-            <div class="com-md-9">
-
+            <div class="col-md-9">
+                <?php wp_nav_menu(array('theme_location' => 'main_menu', 'menu_id' => 'nav')); ?>
             </div>
         </div>
     </div>

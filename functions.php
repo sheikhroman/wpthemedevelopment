@@ -21,6 +21,14 @@ function roman_css_js_file_calling(){
 }
 add_action('wp_enqueue_scripts','roman_css_js_file_calling');
 
+//Google font 
+
+function roman_add_google_fonts(){
+    wp_enqueue_style( 'roman_google_fonts', 'https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Oswald&display=swap" rel="stylesheet', false);
+};
+add_action('wp_enqueue_scripts','roman_add_google_fonts');
+
+
 //theme function
 function roman_customizer_register($wp_customize){
     $wp_customize->add_section('roman_header_area', array(
@@ -41,3 +49,6 @@ function roman_customizer_register($wp_customize){
 
 }
 add_action('customize_register','roman_customizer_register');
+
+//Menu register
+register_nav_menu( 'main_menu', __('Main Menu', 'sheikhroman') );

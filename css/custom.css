@@ -37,9 +37,15 @@ body {
     display: inline-block;
     position: relative;
   }
+  #header_area .col-md-9 ul li a span{
+    display: block;
+    position: relative;
+    font-size: 10px;
+  }
   #header_area .col-md-9 ul li a {
     color: #262626;
     padding: 20px 10px;
+    font-size: 18px;
     display: block;
     text-transform: uppercase;
     text-decoration: none;

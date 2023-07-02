@@ -69,7 +69,22 @@ function roman_customizer_register($wp_customize){
         )
     ));
 
+    //Footer position option
+    $wp_customize->add_section('roman_footer_option', array(
+        'title'=> __('Footer Position Option', 'sheikhroman'),
+        'description'=> 'If you intersted change your menu position'
+    ));
+    $wp_customize->add_setting('roman_copyright_section', array(
+        'default' => '&copy; Copyright 2023 | Sheikh Roman',
+    ));
+    $wp_customize-> add_control('roman_copyright_section', array(
+        'label' => 'Copyright Text',
+        'description'=> 'You can change copyright text from here',
+        'setting' => "roman_copyright_section",
+        'section' => 'roman_footer_option',
+    ));
 }
+
 add_action('customize_register','roman_customizer_register');
 
 //Menu register

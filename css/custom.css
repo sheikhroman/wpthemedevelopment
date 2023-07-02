@@ -140,3 +140,26 @@ body {
    #header_area.center_menu  .col-md-9 ul ul{
     text-align: left;
    }
+
+
+
+/* Footer area */
+
+/* Copyright  */
+#footer_area{
+  background-color: #262626;
+  padding: 20px 0;
+  color: #fff;
+}
+#footer_area p{
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+#footer_area p a{
+  color: #79E1E3;
+}
+#footer_area p a:hover{
+  text-decoration: underline;
+}

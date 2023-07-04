@@ -29,7 +29,7 @@
             </div>
         </div>
     </header>
-<h1>ARCHIVE</h1>
+<h1>ARCHIVE PAGE</h1>
     <!-- Body area -->
     <section id="body_area">
         <div class="container">

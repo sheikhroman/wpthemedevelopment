@@ -39,7 +39,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer section start -->
     <footer id="footer_area">
         <section id="container">
             <div class="row">

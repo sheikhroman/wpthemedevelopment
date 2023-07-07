@@ -146,6 +146,15 @@ body {
 /* Footer area */
 
 /* Copyright  */
+#notice{
+  background-color: #ff6b6b;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+}
+#notice p{
+  margin: 0;
+}
 #footer_area{
   background-color: #262626;
   padding: 20px 0;

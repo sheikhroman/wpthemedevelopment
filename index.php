@@ -12,7 +12,13 @@ get_header(); ?>
             while(have_posts(  )):the_post(  );
              ?>
           <div class="blog_area">
-          <?php the_content(); ?>
+            <div class="post_thumb">
+              <?php echo the_post_thumbnail('post-thumbnails'); ?>
+            </div>
+            <div class="post-details">
+              <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <?php the_excerpt(); ?>
+            </div>
           </div>
           <?php 
           endwhile;

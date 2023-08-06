@@ -19,3 +19,5 @@ add_image_size('post-thumbnails', 970, 350, true);
 //   return 40;
 // // }
 // add_filter('excerpt_length', 'roman_excerpt_lenght', 999);
+
+//comment

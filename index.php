@@ -26,6 +26,12 @@ get_header(); ?>
           _e('No post found');
         endif;
           ?>
+          <div id="pagenav">
+            <?php if('roman_pagenav'){roman_pagenav();}else{ ?>
+              <?php next_posts_link(); ?>
+              <?php previous_posts_link(); ?>
+            <?php } ?>
+          </div>
         </div>
         <div class="col-md-3">
           <h2>Side bar area</h2>

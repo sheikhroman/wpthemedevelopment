@@ -200,6 +200,26 @@ body {
   transition: .5s;
 }
 
+/* Page navigation */
+p.pages {
+  background: #EA1A70;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+span {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+a.page-numbers {
+  background-color: #EA1A70;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
 /* Footer area style*/
 
 /* Copyright  */

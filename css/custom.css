@@ -168,6 +168,7 @@ body {
 #body_area .blog_area{
   width: 100%;
   margin-bottom: 15px;
+  background: rgb(243,243,243);
 }
 #body_area .post_thumb{
   width: 100%;
@@ -219,6 +220,11 @@ a.page-numbers {
   display: inline-block;
   padding: 5px 10px;
   margin-right: 5px;
+}
+a.page_numbers:hover {
+  background: #000;
+  color: #fff;
+  transition: .5s;
 }
 /* Footer area style*/
 

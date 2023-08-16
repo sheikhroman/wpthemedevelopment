@@ -11,13 +11,13 @@ add_image_size('post-thumbnails', 970, 350, true);
 // Except to 40 Word
 
 // function roman_excerpt_more($more){
-//   return '<a class="redmore" href="'.get_permalink( $post->ID) . '">' . ' Read More' . '</a>';
+//   return '<a class="readmore" href="'.get_permalink( $post->ID) . '">' . ' Read More' . '</a>';
 // }
 // add_filter('excerpt_more', 'roman_excerpt_more');
 
 // function roman_excerpt_lenght($length){
 //   return 40;
-// // }
+// }
 // add_filter('excerpt_length', 'roman_excerpt_lenght', 999);
 
 //comment

@@ -168,7 +168,8 @@ body {
 #body_area .blog_area{
   width: 100%;
   margin-bottom: 15px;
-  background: rgb(243,243,243);
+  padding: 5px;
+  box-shadow: 0px 0px 10px #ddd;
 }
 #body_area .post_thumb{
   width: 100%;
@@ -225,6 +226,53 @@ a.page_numbers:hover {
   background: #000;
   color: #fff;
   transition: .5s;
+}
+/* Sidebar style */
+#body_area .child_sidebar{
+  margin-bottom: 15px;
+}
+#body_area .child_sidebar h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0;
+  line-height: 1em;
+}
+#body_area .child_sidebar input[type="search"]{
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+#body_area .child_sidebar button[type="submit"]{
+  background: #EA1A70;
+  border: 1px solid #EA1A70;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+}
+#body_area .child_sidebar button[type="submit"]:hover{
+  border: 1px solid #EA1A70;
+  background: #fff;
+  transition: .5s;
+  color: #EA1A70;
+}
+#body_area .child_sidebar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+#body_area .child_sidebar ul li{
+  display: block;
+  margin-bottom: 5px;
+}
+#body_area .child_sidebar ul li a{
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+#body_area .child_sidebar ul li a:hover{
+  color: #EA1A70;
 }
 /* Footer area style*/
 

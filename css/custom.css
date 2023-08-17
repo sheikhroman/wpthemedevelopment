@@ -312,6 +312,30 @@ a.page_numbers:hover {
   background: #EA1A70;
   transition: .5s;
 }
+/*  comment area style */
+#comment_area h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+#comment-1{
+  display: none;
+}
+.comment-form-comment label{
+  display: none;
+}
+.submit{
+  background: #EA1A70;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid#ddd;
+}
+.submit:hover{
+  color: #EA1A70;
+  background: #fff;
+  transition: .5s;
+}
 /* Footer area style*/
 /* Copyright  */
 

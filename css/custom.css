@@ -336,6 +336,17 @@ a.page_numbers:hover {
   background: #fff;
   transition: .5s;
 }
+/* archive style */
+#archive_title{
+  background: #EA1A70;
+  padding: 10px;
+}
+#archive_title h1{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
 /* Footer area style*/
 /* Copyright  */
 

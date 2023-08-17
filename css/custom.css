@@ -274,8 +274,21 @@ a.page_numbers:hover {
 #body_area .child_sidebar ul li a:hover{
   color: #EA1A70;
 }
+#body_area .child_sidebar a.tag-cloud-link {
+  background: #504f4f;
+  text-decoration: none;
+  font-size: 14px !important;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+#body_area .child_sidebar a.tag-cloud-link:hover{
+  background: #EA1A70;
+  transition: .5s;
+}
 /* Footer area style*/
-
 /* Copyright  */
 
 #footer_area{

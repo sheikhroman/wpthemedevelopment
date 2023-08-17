@@ -227,6 +227,21 @@ a.page_numbers:hover {
   color: #fff;
   transition: .5s;
 }
+#body_area .post_details p a {
+  color: #ddd;
+  margin-left: 6px;
+  font-weight: 600;
+  background: #EA1A70;
+  padding: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+#body_area .post_details p a:hover {
+  color: #ea1a70;
+  background: #ddd;
+  transition: .5s;
+}
 /* Sidebar style */
 #body_area .child_sidebar{
   margin-bottom: 15px;
@@ -237,6 +252,15 @@ a.page_numbers:hover {
   font-size: 30px;
   margin-bottom: 0;
   line-height: 1em;
+}
+.child_sidebar h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 0;
+  line-height: 1em;
+  border-left: 5px solid #ea1a70;
+  padding-left: 10px;
 }
 #body_area .child_sidebar input[type="search"]{
   background: #fff;

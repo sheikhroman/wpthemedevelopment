@@ -347,6 +347,13 @@ a.page_numbers:hover {
   margin-bottom: 0;
   font-weight: 600;
 }
+/* search title */
+#search_title .title{
+  background: #EA1A70;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
 /* Footer area style*/
 /* Copyright  */
 

@@ -354,6 +354,23 @@ a.page_numbers:hover {
   color: #fff;
   font-weight: 600;
 }
+/* 404 page*/
+.error_page{
+  padding: 20px;
+  text-align: center;
+}
+.error_page h1{
+  color: #ff8383;
+  font-size: 6rem;
+  line-height: 1em;
+}
+.error_page h3{
+  margin-bottom: 10px;
+}
+.error_search[type='text']{
+  background: #fff;
+
+}
 /* Footer area style*/
 /* Copyright  */
 

@@ -8,11 +8,13 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="col-md-12 error_page">
-            <h2>404</h2>
-            <p>Sorry, but the page you are looking for does not exist.</p>
+            <h1>404</h1>
+            <h3>Sorry, but the page you are looking for does not exist.</h3>
+            <div class="error_search">
             <?php get_search_form(); ?>
+            </div>
+            <a href="<?php echo home_url(); ?>" class="homepage">Home</a>
         </div>
-        <a href="<?php echo home_url(); ?>" class="homepage">Home</a>
       </div>
     </div>
   </section>

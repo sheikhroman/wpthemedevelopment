@@ -13,7 +13,7 @@ get_header(); ?>
             <div class="error_search">
             <?php get_search_form(); ?>
             </div>
-            <a href="<?php echo home_url(); ?>" class="homepage">Home</a>
+            <a href="<?php echo home_url(); ?>" class="homepage">Homepage</a>
         </div>
       </div>
     </div>

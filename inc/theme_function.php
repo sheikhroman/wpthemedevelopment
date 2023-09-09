@@ -52,6 +52,41 @@ function roman_customizer_register($wp_customize){
         'setting' => "roman_copyright_section",
         'section' => 'roman_footer_option',
     ));
+
+    // Theme color
+    $wp_customize-> add_section('roman_colors', array(
+        'title' => __('Theme Color', 'sheikhroman'),
+        'description' => 'If need ! You can change theme color.',
+    ));
+    $wp_customize -> add_setting('roman_bg_color', array(
+        'default' => "#ffffff",
+    ));
+    $wp_customize -> add_control(new WP_Customize_Color_Control($wp_customize, 'roman_bg_color', array(
+        'label'=> 'Background Color', 
+        'section'=> 'roman_colors',
+        'settings'=> 'roman_bg_color',
+    )));
+    $wp_customize -> add_setting('roman_primary_color', array(
+        'default' => "#EA1A70",
+    ));
+    $wp_customize -> add_control(new WP_Customize_Color_Control($wp_customize, 'roman_primary_color', array(
+        'label'=> 'Primary Color', 
+        'section'=> 'roman_colors',
+        'settings'=> 'roman_primary_color',
+    )));
+
+
 }
 
 add_action('customize_register','roman_customizer_register');
+
+//color
+function roman_theme_color_cus(){
+    ?>
+    <style>
+        body{background: <?php echo get_theme_mod('roman_bg_color'); ?>;}
+        :root{--pink:<?php echo get_theme_mod('roman_primary_color'); ?>;}
+    </style>
+    <?php
+}
+add_action( 'wp_head','roman_theme_color_cus' );

@@ -1,6 +1,10 @@
 /*=======================================
  Common CSS
 ========================================*/
+:root{
+  --pink: #EA1A70;
+
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -25,7 +29,7 @@ body {
     max-width: 100%;
   }
   /* a.redmore {
-    background: #ea1a70;
+    background:  var(--pink);
     color: #fff;
     font-size: 15px;
     text-decoration: navajowhite;
@@ -71,7 +75,7 @@ body {
     text-decoration: none;
   }
   #header_area .col-md-9 ul li a:hover {
-    background: #ea1a70;
+    background: var(--pink);
     color: #fff;
   }
   
@@ -101,7 +105,7 @@ body {
     color: #262626;
   }
   #header_area .col-md-9 ul li:hover a {
-    background: #ea1a70;
+    background:  var(--pink);
     color: #fff;
   }
   #header_area .col-md-9 ul li:hover ul li a {
@@ -122,7 +126,7 @@ body {
     left: 200px;
   }
   #header_area .col-md-9 ul li ul li:hover a {
-    background: #ea1a70;
+    background:  var(--pink);
     color: #fff;
   }
   #header_area .col-md-9 ul ul li:hover ul li a {
@@ -130,7 +134,7 @@ body {
     color: #fff;
   }
   #header_area .col-md-9 ul ul li ul li a:hover {
-    background: #ea1a70;
+    background:  var(--pink);
     color: #fff;
   }
 
@@ -204,7 +208,7 @@ body {
 
 /* Page navigation */
 p.pages {
-  background: #EA1A70;
+  background:  var(--pink);
   color: #fff;
   padding: 5px 10px;
 }
@@ -215,7 +219,7 @@ span {
 }
 
 a.page-numbers {
-  background-color: #EA1A70;
+  background-color:  var(--pink);
   color: #fff;
   text-decoration: none;
   display: inline-block;
@@ -231,14 +235,14 @@ a.page_numbers:hover {
   color: #ddd;
   margin-left: 6px;
   font-weight: 600;
-  background: #EA1A70;
+  background:  var(--pink);
   padding: 5px;
   text-decoration: none;
   transition: 0.5s;
   border-radius: 2px;
 }
 #body_area .post_details p a:hover {
-  color: #ea1a70;
+  color:  var(--pink);
   background: #ddd;
   transition: .5s;
 }
@@ -259,7 +263,7 @@ a.page_numbers:hover {
   font-size: 22px;
   margin-bottom: 0;
   line-height: 1em;
-  border-left: 5px solid #ea1a70;
+  border-left: 5px solid  var(--pink);
   padding-left: 10px;
 }
 #body_area .child_sidebar input[type="search"]{
@@ -268,17 +272,17 @@ a.page_numbers:hover {
   padding: 10px;
 }
 #body_area .child_sidebar button[type="submit"]{
-  background: #EA1A70;
-  border: 1px solid #EA1A70;
+  background:  var(--pink);
+  border: 1px solid  var(--pink);
   font-weight: bold;
   color: #fff;
   padding: 10px;
 }
 #body_area .child_sidebar button[type="submit"]:hover{
-  border: 1px solid #EA1A70;
+  border: 1px solid  var(--pink);
   background: #fff;
   transition: .5s;
-  color: #EA1A70;
+  color:  var(--pink);
 }
 #body_area .child_sidebar ul{
   margin: 0;
@@ -296,7 +300,7 @@ a.page_numbers:hover {
   text-decoration: none;
 }
 #body_area .child_sidebar ul li a:hover{
-  color: #EA1A70;
+  color:  var(--pink);
 }
 #body_area .child_sidebar a.tag-cloud-link {
   background: #504f4f;
@@ -309,7 +313,7 @@ a.page_numbers:hover {
   margin-bottom: 5px;
 }
 #body_area .child_sidebar a.tag-cloud-link:hover{
-  background: #EA1A70;
+  background:  var(--pink);
   transition: .5s;
 }
 /*  comment area style */
@@ -326,19 +330,19 @@ a.page_numbers:hover {
   display: none;
 }
 .submit{
-  background: #EA1A70;
+  background:  var(--pink);
   font-weight: 600;
   color: #fff;
   border: 1px solid#ddd;
 }
 .submit:hover{
-  color: #EA1A70;
+  color:  var(--pink);
   background: #fff;
   transition: .5s;
 }
 /* archive style */
 #archive_title{
-  background: #EA1A70;
+  background:  var(--pink);
   padding: 10px;
 }
 #archive_title h1{
@@ -349,7 +353,7 @@ a.page_numbers:hover {
 }
 /* search title */
 #search_title .title{
-  background: #EA1A70;
+  background:  var(--pink);
   font-size: 20px;
   color: #fff;
   font-weight: 600;
@@ -374,8 +378,8 @@ a.page_numbers:hover {
   border-radius: 2px;
 }
 .error_search input[type="submit"]{
-  background: #EA1A70;
-  border: 1px solid #ea1a70;
+  background:  var(--pink);
+  border: 1px solid  var(--pink);
   padding: 10px;
   margin: 0;
   color: #fff;
@@ -384,14 +388,14 @@ a.page_numbers:hover {
 }
 .error_page a{
   text-decoration: none;
-  background-color:#EA1A70;
+  background-color: var(--pink);
   font-size: 20px;
   color: #fff;
   padding: 12px;
   display: inline-block;
   margin: 20px;
   font-weight: 600;
-  border: 1px solid #EA1A70;
+  border: 1px solid  var(--pink);
 }
 .error_page a:hover{
   background-color: #ffffff;

@@ -10,6 +10,8 @@ include_once('inc/enqueue.php');
 //theme function
 include_once('inc/theme_function.php');
 
+//Custom post
+include_once('inc/custom_post.php');
 
 //Menu register
 include_once('inc/menu_register.php');

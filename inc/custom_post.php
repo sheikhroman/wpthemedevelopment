@@ -13,6 +13,8 @@ function custom_service(){
             'not_found' => __( 'No Service found' ),
         ),
         'menu_icon' => 'dashicons-awards',
+        'public' => true,
+        'publicly_queryable' => true,
     )
     );
 }

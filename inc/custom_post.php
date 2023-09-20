@@ -30,4 +30,6 @@ function custom_service()
 }
 add_action( 'init', 'custom_service' );
 
-//some error 
+
+
+//consome page error

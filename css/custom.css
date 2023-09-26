@@ -424,13 +424,13 @@ a.page_numbers:hover {
   text-decoration: underline;
 }
 
-/* theme serivise area */
+/* theme service area */
 #service_area{
   padding: 45px 0;
 }
-#service_area .col-md-4{
+#service_area .child_service{
   background: #ddd;
   box-shadow: 0 0 10px #ddd;
-  padding: 15px;
+  padding: 10px;
   border-radius: 15px;
 }

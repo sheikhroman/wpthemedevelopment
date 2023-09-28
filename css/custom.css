@@ -434,3 +434,10 @@ a.page_numbers:hover {
   padding: 10px;
   border-radius: 15px;
 }
+.button{
+  background:  var(--pink);
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  display: inline-block;
+}

@@ -18,3 +18,5 @@ include_once('inc/menu_register.php');
 
 //Widget Register
 include_once('inc/widget_register.php');
+//Shortcode Register
+include_once('inc/shortcode.php');

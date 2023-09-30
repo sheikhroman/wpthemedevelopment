@@ -440,6 +440,7 @@ a.page_numbers:hover {
   padding: 10px 25px;
   border-radius: 5px;
   display: inline-block;
+  text-decoration: none;
 }
 
 

@@ -442,5 +442,8 @@ a.page_numbers:hover {
   display: inline-block;
   text-decoration: none;
 }
-
+.child_sidebar .col-md-4{
+  width: 100%;
+  margin-bottom: 20px;
+}
 
